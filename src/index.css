@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", sans-serif;
+  
+  --color-gold: #FFD700;
+  --color-gold-hover: #E6C200;
+  --color-success: #22C55E;
+  --color-charcoal: #121212;
+  --color-deep-black: #080808;
+  --color-soft-white: #E5E5E5;
+  --color-muted-gray: #A3A3A3;
+}
+
+@layer base {
+  body {
+    @apply bg-deep-black text-soft-white font-sans antialiased;
+  }
+}
+
+.glass-navbar {
+  @apply bg-deep-black/80 backdrop-blur-md border-b border-white/5;
+}
+
+.gold-button {
+  @apply bg-gold text-deep-black font-bold px-6 py-2.5 rounded-full transition-all hover:scale-105 active:scale-95 hover:bg-gold-hover shadow-lg shadow-gold/20;
+}
+
+.service-card {
+  @apply bg-charcoal border border-white/5 p-8 rounded-2xl transition-all hover:border-gold/30 hover:-translate-y-1;
+}
+
+.section-title {
+  @apply font-display text-3xl md:text-5xl font-bold text-gold tracking-tight;
+}
