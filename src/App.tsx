@@ -103,7 +103,7 @@ export default function App() {
               className="gold-button text-lg px-10 py-4 flex items-center justify-center gap-3 mx-auto group"
             >
               <Zap className="w-5 h-5 fill-gold group-hover:scale-110 transition-transform" />
-              Agendar Consultoria de Tráfego
+              Agendar Consultoria
             </a>
           </motion.div>
         </div>
