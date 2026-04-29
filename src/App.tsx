@@ -268,7 +268,7 @@ export default function App() {
                   Instagram
                 </a>
                 <a 
-                  href="https://wa.me/5547996022271?text=Olá,%20gostaria%20de%20falar%20com%20a%20assessoria%20comercial" 
+                  href="https://wa.me/5547996022271?text=Olá,%20gostaria%20de%20falar%20com%20a%20Tech%20Integrada" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="hover:text-gold transition-colors"
