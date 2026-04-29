@@ -50,9 +50,14 @@ export default function App() {
             <a href="#contato" className="text-sm font-medium hover:text-gold transition-colors">Contato</a>
           </div>
 
-          <button className="gold-button flex items-center gap-2 text-sm">
+          <a 
+            href="https://wa.me/5547996022271?text=Olá,%20gostaria%20de%20falar%20com%20a%20Tech%20Integrada" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="gold-button flex items-center gap-2 text-sm"
+          >
             Solicitar Proposta
-          </button>
+          </a>
         </div>
       </nav>
 
@@ -92,10 +97,15 @@ export default function App() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            <button className="gold-button text-lg px-10 py-4 flex items-center justify-center gap-3 mx-auto group">
+            <a 
+              href="https://wa.me/5547996022271?text=Olá,%20gostaria%20de%20falar%20com%20a%20Tech%20Integrada" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="gold-button text-lg px-10 py-4 flex items-center justify-center gap-3 mx-auto group"
+            >
               <Zap className="w-5 h-5 fill-gold group-hover:scale-110 transition-transform" />
               Agendar Consultoria de Tráfego
-            </button>
+            </a>
           </motion.div>
         </div>
       </section>
@@ -249,8 +259,22 @@ export default function App() {
             <div className="flex flex-col items-center md:items-end gap-4">
               <div className="flex items-center gap-6 text-sm font-medium text-muted-gray">
                 <a href="#" className="hover:text-gold transition-colors">LinkedIn</a>
-                <a href="#" className="hover:text-gold transition-colors">Instagram</a>
-                <a href="#" className="hover:text-gold transition-colors">WhatsApp</a>
+                <a 
+                  href="https://www.instagram.com/tech.integrada/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-gold transition-colors"
+                >
+                  Instagram
+                </a>
+                <a 
+                  href="https://wa.me/5547996022271?text=Olá,%20gostaria%20de%20falar%20com%20a%20assessoria%20comercial" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-gold transition-colors"
+                >
+                  WhatsApp
+                </a>
               </div>
               <p className="text-xs text-muted-gray/50">© 2026 Tech Integrada. Todos os direitos reservados.</p>
             </div>
