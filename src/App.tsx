@@ -79,8 +79,7 @@ export default function App() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="section-title text-4xl md:text-6xl lg:text-7xl mb-6 leading-[1.1]"
           >
-            Acelere suas Vendas com <br className="hidden md:block" />
-            Tráfego e Automação Inteligente.
+            20 novos pacientes em até 45 dias ou não pague nosso plano de marketing!
           </motion.h1>
           
           <motion.p 
@@ -89,7 +88,7 @@ export default function App() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-muted-gray text-lg md:text-xl max-w-2xl mx-auto mb-10"
           >
-            Especialistas em conectar seu negócio ao público ideal através de anúncios, CRM e Inteligência Artificial.
+            Descubra como clinicas estão conquistando 20 novos pacientes em apenas 45 dias em parceria conosco.
           </motion.p>
           
           <motion.div
@@ -124,7 +123,7 @@ export default function App() {
             <motion.div variants={fadeInUp} className="service-card">
               <Megaphone className="text-gold w-10 h-10 mb-6" />
               <h3 className="text-xl font-bold mb-3 text-gold">Tráfego Pago de Alta Performance</h3>
-              <p className="text-muted-gray leading-relaxed text-sm">Anúncios otimizados no Google, Meta e LinkedIn para escala real.</p>
+              <p className="text-muted-gray leading-relaxed text-sm">Anúncios otimizados no Google e Meta para escala real.</p>
             </motion.div>
 
             {/* Card 2 */}
@@ -258,7 +257,6 @@ export default function App() {
             
             <div className="flex flex-col items-center md:items-end gap-4">
               <div className="flex items-center gap-6 text-sm font-medium text-muted-gray">
-                <a href="#" className="hover:text-gold transition-colors">LinkedIn</a>
                 <a 
                   href="https://www.instagram.com/tech.integrada/" 
                   target="_blank" 
