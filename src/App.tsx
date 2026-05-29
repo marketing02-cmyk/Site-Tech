@@ -51,7 +51,7 @@ export default function App() {
           </div>
 
           <a 
-            href="https://wa.me/5547996022271?text=Olá,%20gostaria%20de%20falar%20com%20a%20Tech%20Integrada" 
+            href="https://wa.me/5547996149315?text=Olá,%20gostaria%20de%20falar%20com%20a%20Tech%20Integrada" 
             target="_blank" 
             rel="noopener noreferrer"
             className="gold-button flex items-center gap-2 text-sm"
@@ -97,7 +97,7 @@ export default function App() {
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             <a 
-              href="https://wa.me/5547996022271?text=Olá,%20gostaria%20de%20falar%20com%20a%20Tech%20Integrada" 
+              href="https://wa.me/5547996149315?text=Olá,%20gostaria%20de%20falar%20com%20a%20Tech%20Integrada" 
               target="_blank" 
               rel="noopener noreferrer"
               className="gold-button text-lg px-10 py-4 flex items-center justify-center gap-3 mx-auto group"
@@ -266,7 +266,7 @@ export default function App() {
                   Instagram
                 </a>
                 <a 
-                  href="https://wa.me/5547996022271?text=Olá,%20gostaria%20de%20falar%20com%20a%20Tech%20Integrada" 
+                  href="https://wa.me/5547996149315?text=Olá,%20gostaria%20de%20falar%20com%20a%20Tech%20Integrada" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="hover:text-gold transition-colors"
